@@ -1,0 +1,89 @@
+body{                    /* SFONDO */
+
+  background-image: url(background.jpg);
+  background-size: cover;
+
+}
+
+#contenitore_principale{  /* CONTENITORE CON TRASPARENZA NERA */
+
+  background-color: rgba(0,0,0,0.7);
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+header{
+  text-align: center;
+  color: #00ff00;
+}
+
+#logo{
+  width: 25%;
+  margin: 0 auto;
+}
+
+.scritta_header{
+  height: 20px;
+  margin: 0 solid;
+}
+
+nav{           /* MENU */
+
+  width: 800px;
+  height: 30px;
+  background-color: #00ff00;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+main{
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: Verdana;
+}
+
+section{   /* PER LASCIARE UN PO DI SPAZIO TRA IL MENU E I MONOPATTINI */
+  margin-top: 20px;
+}
+
+.margin{     /* PER LASCIARE UN PO DI SPAZIO TRA OGNI MONOPATTINO */
+  margin-bottom: 10px;
+}
+
+
+.progress{    /* BARRA GRIGIA DI CARICA VUOTA */
+  margin-left: 10px;
+  width: 350px;
+  height: 20px;
+  background: grey;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress__fill_1{    /* BARRA ARANCIONE DI CARICA */
+  width: 70%;
+  height: 100%;
+  background: orange;
+}
+
+.progress__fill_2{   /* BARRA VERDE DI CARICA */
+  width: 90%;
+  height: 100%;
+  background: green;
+}
+
+.progress__fill_3{    /* BARRA ROSSA DI CARICA */
+  width: 35%;
+  height: 100%;
+  background: red;
+}
+
+input~strong{   /* PER SELEZIONARE SOLO GLI STRONG DEL MONOPATTINO */
+  font-size: 25px;
+}
